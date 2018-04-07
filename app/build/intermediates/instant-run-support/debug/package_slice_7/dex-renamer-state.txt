@@ -1,0 +1,4 @@
+#Sat Apr 07 11:09:38 CDT 2018
+base.0=/Users/Imane/Documents/Programming stuff/Trials and tribulations/TimeSaver/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

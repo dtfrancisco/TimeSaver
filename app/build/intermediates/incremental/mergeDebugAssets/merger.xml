@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Imane/Documents/Programming stuff/Trials and tribulations/TimeSaver/app/src/main/assets"/><source path="/Users/Imane/Documents/Programming stuff/Trials and tribulations/TimeSaver/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Imane/Documents/Programming stuff/Trials and tribulations/TimeSaver/app/src/debug/assets"/></dataSet></merger>
