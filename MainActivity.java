@@ -79,11 +79,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        TextView textView = findViewById(R.id.appNameLabel);
-        startActivity(new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:" + "com.google.android.youtube")));
-        System.out.println("hi" + (String)view.getTag());
-        Toast.makeText(getApplicationContext(), (String)view.getTag(), Toast.LENGTH_LONG).show();
-
+        startActivity(new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:" + (String)view.getTag())));
     }
 
     @Override

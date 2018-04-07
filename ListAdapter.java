@@ -39,7 +39,7 @@ public class ListAdapter extends ArrayAdapter <ItemList> {
         ImageView appIcon = (ImageView) convertView.findViewById(R.id.appIconLabel);
         appName.setText(item.appName);
         appIcon.setImageDrawable(item.appIcon);
-        appName.setTag("hello");
+        appName.setTag(item.processName);
       //  Toast.makeText(getContext(), (String)convertView.getTag(), Toast.LENGTH_LONG).show();
         return convertView;
     }
