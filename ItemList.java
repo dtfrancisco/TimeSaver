@@ -12,13 +12,13 @@ public class ItemList {
     Drawable appIcon;
     String appName;
     String processName;
-   // Button button;
+    // Button button;
 
     public ItemList(Drawable appIcon, String appName, String processName) {
         this.appIcon = appIcon;
         this.appName = appName;
         this.processName = processName;
-     //   this.button = button;
+        //   this.button = button;
     }
 
 
@@ -50,7 +50,6 @@ public class ItemList {
   /*  public Button getButton() {
         return button;
     }
-
     public void setButton(Button button) {
         this.button = button;
     } */

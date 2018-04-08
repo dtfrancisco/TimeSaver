@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<ItemList> appItems = new ArrayList<ItemList>();
         for(int i=0; i<apps.size(); i++) {
             //if ((apps.get(i).applicationInfo.flags & ApplicationInfo.FLAG_UPDATED_SYSTEM_APP) == 0 &&
-                    //(apps.get(i).applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
+            //(apps.get(i).applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
             if (addProcesses(apps.get(i).applicationInfo.processName)) {
                 Drawable icon = getPackageManager().getApplicationIcon(apps.get(i).applicationInfo);
                 String label = apps.get(i).applicationInfo.loadLabel(getPackageManager()).toString();
@@ -73,7 +73,10 @@ public class MainActivity extends AppCompatActivity {
         List<String> validPNames = new ArrayList<String>();
         validPNames.add("com.facebook.orca");
         validPNames.add("com.google.android.youtube");
-    //    validPNames.add("com.google.android.chrome");
+        validPNames.add("com.facebook.katana");
+        validPNames.add("com.Slack");
+
+        //    validPNames.add("com.google.android.chrome");
 
         return validPNames;
     }
